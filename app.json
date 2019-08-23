@@ -1,10 +1,10 @@
 {
   "name": "Heroku Redirect",
-  "repository": "https://github.com/kenmickles/heroku-redirect",
+  "repository": "https://github.com/lbryio/heroku-redirect",
   "env": {
-    "NEW_BASE_URL": {
-      "description": "Redirect all requests to this URL.",
-      "value": "http://example.com"
+    "NEW_DOMAIN": {
+      "description": "Redirect all requests to this domain.",
+      "value": "example.com"
     },
     "REDIRECT_STATUS": {
       "description": "Redirect with this HTTP status code.",
